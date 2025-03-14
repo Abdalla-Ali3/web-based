@@ -1,0 +1,35 @@
+.thumbnail{
+    width:300px;
+    height: 169.3px;
+    object-fit: cover;
+}
+.searchbar{
+    border-color: rgb(26, 128, 129);
+    font-size: 16px;
+    border-radius: 4px;
+    border-style:bold;
+    display: block;
+}
+p{
+    font-family: Arial;
+    margin-left: 50px;
+}
+.video{
+    font-size: 16px;
+    font-weight: bold;
+    width: 220px;
+}
+.channel{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-size: 12px;
+}
+.views{
+    margin-top: 4px;
+    font-size: 12px;
+}
+.div{
+    display: inline-block;
+    margin-right:10px;
+    vertical-align: top;
+}
