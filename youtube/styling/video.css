@@ -7,9 +7,25 @@
 .div{
     width: 300px;
 }
+@media (max-width: 750px) {
+    .videogrid{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media(min-width: 1000px){
+    .videogrid{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+}
+@media(min-width: 1000px){
+    .videogrid{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+}
 .timing{
     position: absolute;
-    font-family: Roboto,Arial;
     padding: 4px;
     font-weight: 500;
     font-size: 12px;
