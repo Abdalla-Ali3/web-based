@@ -1,0 +1,166 @@
+.header{
+    background-color: white;
+    border-bottom-width: 1px ;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(213, 213, 213) ;
+    height: 55px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    z-index: 5;   
+}
+.notification{
+    position: relative;
+}
+.notification:hover .search{
+    opacity: 1;
+}
+.notification:hover{
+    cursor: pointer;
+}
+.placement{
+    position: absolute;
+    font-family: Roboto,Arial;
+    font-size: 11px;
+    background-color: rgb(147, 0, 0);
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    right: -6px;
+    top: -4px;
+    border-radius: 100%;
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+
+}
+.search{
+    background-color: grey;
+    color: white;
+    position: absolute;
+    border-radius: 2px;
+    font-family: Roboto, Arial;
+    width: 60px;
+    height: 30px;
+    bottom: -44px;
+    right: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+.rightbut{
+    position: relative;
+}
+.rightbut:hover .search{
+    opacity: 1;
+}
+.rightbut:hover{
+    cursor: pointer;
+}
+.searchbut:hover .search{
+    opacity: 1;
+}
+.searchbut:hover{
+    cursor: pointer;
+}
+
+.voicebut:hover .search{
+    opacity: 1;
+}
+.voicebut:hover{
+    cursor: pointer;
+}
+
+.searchbar{
+    flex:1;
+    width: 0;
+    border-color: #dbdbdb;
+    font-size: 16px;
+    font-family: Roboto,Arial;
+    box-shadow: inset 1px 2px 1px rgb(0,0,0, 0.05);
+    border-radius: 2px;
+    border-width: 1px;
+    border-style:solid;
+    padding-left: 10px;
+    height: 36px;
+    
+}
+.searchbar::placeholder{
+    font-family: Roboto, Arial;
+    font-size: 16px;
+    color:rgb(162, 162, 162);
+}
+.menu{
+    height: 24px;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+.youtube-logo{
+    height: 20px;
+}
+.left{
+    display: flex;
+    
+    align-items: center;
+    width: 180px;
+}
+.voiceicon{
+    height: 24px;
+    padding-top: 4px;
+}
+.voicebut{
+    position: relative;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    border: none;
+}
+.searchicon{
+    height: 25px;
+    padding-top: 5px;
+    padding-left: 12px;
+}
+.searchbut{
+    display: flex;
+    position: relative;
+    border-color:#dbdbdb;
+    background-color: rgb(246, 246, 246);
+    border-style: solid;
+    border-width: 1px;
+    height: 40px;
+    width: 66px;
+    margin-left: -1px;
+    margin-right: 10px;
+    border-top-right-radius:2px ;
+    border-bottom-right-radius:2px ;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 180px;
+    margin-right: 22px;
+    margin-left: 29px;
+    flex-shrink: 0;
+}
+
+.rightimg{
+    height: 24px;
+}
+.middle{
+    padding-top: 8px;
+    flex:1;
+    background-color: aquamarine;
+    display: flex;
+    max-width: 470px;
+    height: 40px;
+    margin-left: 60px;
+}

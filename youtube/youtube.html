@@ -1,40 +1,329 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./styling/header.css">
+        <link rel="stylesheet" href="./styling/video.css">
+        <link rel="stylesheet" href="./styling/general.css">
+        <link rel="stylesheet" href="./styling/sidebar.css">
         <title>
-            Youtube.com Clone
+            Youtube.com
         </title>
     </head>
     <body>
-        <input class="searchbar" type="text" placeholder="search">
-        <div class="div">
-            <img  class="thumbnail"  src="./thumbnail/thumbnail.png">
-        
-            <p class="video">
-                How to grow your arms like a monster
-            </p>
-            <p 
-                class="channel">A random guy
-            </p>
-            <p class="views">
-                12M views &#183; 12 years ago
-            </p>  
-        </div>
-        <div class="div">
-            <img  class="thumbnail"  src="./thumbnail/123.webp">
-        
-            <p class="video">
-                beautiful cat
-            </p>
-            <p 
-                class="channel">Fluffies
-            </p>
-            <p class="views">
-                2.6M views &#183; 12 years ago
-            </p>  
-        </div>
-     
+        <div class="sidebar">
+            <div class="links">
+                <img src="./generalimages/home.svg" class="sideimg">
+                <div>
+                    Home
+                </div>
 
+            </div>
+
+            <div class="links">
+                <img src="./generalimages/explore.svg" class="sideimg">
+                <div>
+                    Explore
+                </div>
+
+            </div>
+
+            <div class="links">
+                <img src="./generalimages/subscriptions.svg" class="sideimg">
+                <div>
+                    subscriptions
+                </div>
+
+            </div>
+
+            <div class="links">
+                <img src="./generalimages/originals.svg" class="sideimg">
+                <div>
+                    originals
+                </div>
+
+            </div>
+
+            <div class="links">
+                <img src="./generalimages/youtube-music.svg" class="sideimg">
+                <div>
+                    youtube music
+                </div>
+
+            </div>
+
+            <div class="links">
+                <img src="./generalimages/library.svg" class="sideimg">
+                <div>
+                    library
+                </div>
+
+            </div>
+        </div>
+        <div class="header">
+            <div class="left">
+                <img src="./generalimages/hamburger-menu.svg" class="menu">
+                <img src="./generalimages/youtube-logo.svg" class="youtube-logo">
+            </div>
+            <div class="middle">
+                <input class="searchbar" type="text" placeholder="Search">
+                <button class="searchbut">
+                    <img src="./generalimages/search.svg" class="searchicon">
+                    <div class="search"> Search </div>
+                </button>
+                <button class="voicebut">
+                    <img src="./generalimages/voice-search-icon.svg" class="voiceicon">
+                    <div class="search"> Search </div>
+                </button>
+            </div>
+            <div class="right">
+                <div class="rightbut">
+                    <img src="./generalimages/upload.svg" class="rightimg">
+                    <div class="search"> Upload </div>
+                </div>
+                <div class="rightbut">
+                    <img src="./generalimages/youtube-apps.svg" class="rightimg">
+                    <div class="search"> Search </div>
+                </div>
+                
+                <div class="notification">
+                    <img src="./generalimages/notifications.svg" class="rightimg">
+                    <div class="placement">
+                        4
+                    </div>
+                    <div class="search"> Search </div>
+                </div>
+                <img src="./channels/1.jpg" style="height: 34px;width: 34px;object-fit: cover;border-radius: 100%;">
+            </div>
+        </div>
+
+        <div class="videogrid">
+            <div class="div">
+                <div class="thumbing">
+                    <img  class="thumbnail"  src="./thumbnail/thumbnail.png">
+                    <div class="timing">
+                        15:11
+                    </div>
+                </div>
+                <div class="container">
+                    <div  >
+                        <img  class="chpic" src="./channels/1.jpg">
+                    </div>
+                    <div class="vidinfo">
+                        <p class="videodescription">
+                            How to grow your arms like a monster
+                        </p>
+                        <p class="channelname">
+                            A random guy
+                        </p>
+                        <p class="views">
+                            12M views &#183; 12 years ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="div">
+                <div class="thumbing">
+                    <img  class="thumbnail"  src="./thumbnail/123.webp">
+                    <div class="timing">
+                        15:11
+                    </div>
+                </div>
+                <div class="container">
+                    <div  >
+                        <img  class="chpic"  src="./thumbnail/123.webp">
+                    </div>
+                    <div class="vidinfo">
+                        <p class="videodescription">
+                            beautiful cat
+                        </p>
+                        <p class="channelname">
+                            Fluffies
+                        </p>
+                        <p class="views">
+                            2.6M views &#183; 12 years ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="div">
+                <div class="thumbing">
+                    <img  class="thumbnail"  src="./thumbnail/thumbnail.png">
+                    <div class="timing">
+                        15:11
+                    </div>
+                </div>
+                <div class="container">
+                    <div  >
+                        <img  class="chpic" src="./channels/1.jpg">
+                    </div>
+                    <div class="vidinfo">
+                        <p class="videodescription">
+                            How to grow your arms like a monster
+                        </p>
+                        <p class="channelname">
+                            A random guy
+                        </p>
+                        <p class="views">
+                            12M views &#183; 12 years ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="div">
+                <div class="thumbing">
+                    <img  class="thumbnail"  src="./thumbnail/123.webp">
+                    <div class="timing">
+                        15:11
+                    </div>
+                </div>
+                <div class="container">
+                    <div  >
+                        <img  class="chpic"  src="./thumbnail/123.webp">
+                    </div>
+                    <div class="vidinfo">
+                        <p class="videodescription">
+                            beautiful cat
+                        </p>
+                        <p class="channelname">
+                            Fluffies
+                        </p>
+                        <p class="views">
+                            2.6M views &#183; 12 years ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="div">
+                <div class="thumbing">
+                    <img  class="thumbnail"  src="./thumbnail/thumbnail.png">
+                    <div class="timing">
+                        15:11
+                    </div>
+                </div>
+                <div class="container">
+                    <div  >
+                        <img  class="chpic" src="./channels/1.jpg">
+                    </div>
+                    <div class="vidinfo">
+                        <p class="videodescription">
+                            How to grow your arms like a monster
+                        </p>
+                        <p class="channelname">
+                            A random guy
+                        </p>
+                        <p class="views">
+                            12M views &#183; 12 years ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="div">
+                <div class="thumbing">
+                    <img  class="thumbnail"  src="./thumbnail/123.webp">
+                    <div class="timing">
+                        15:11
+                    </div>
+                </div>
+                <div class="container">
+                    <div  >
+                        <img  class="chpic"  src="./thumbnail/123.webp">
+                    </div>
+                    <div class="vidinfo">
+                        <p class="videodescription">
+                            beautiful cat
+                        </p>
+                        <p class="channelname">
+                            Fluffies
+                        </p>
+                        <p class="views">
+                            2.6M views &#183; 12 years ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="div">
+                <div class="thumbing">
+                    <img  class="thumbnail"  src="./thumbnail/thumbnail.png">
+                    <div class="timing">
+                        15:11
+                    </div>
+                </div>
+                <div class="container">
+                    <div  >
+                        <img  class="chpic" src="./channels/1.jpg">
+                    </div>
+                    <div class="vidinfo">
+                        <p class="videodescription">
+                            How to grow your arms like a monster
+                        </p>
+                        <p class="channelname">
+                            A random guy
+                        </p>
+                        <p class="views">
+                            12M views &#183; 12 years ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="div">
+                <div class="thumbing">
+                    <img  class="thumbnail"  src="./thumbnail/123.webp">
+                    <div class="timing">
+                        15:11
+                    </div>
+                </div>
+                <div class="container">
+                    <div  >
+                        <img  class="chpic"  src="./thumbnail/123.webp">
+                    </div>
+                    <div class="vidinfo">
+                        <p class="videodescription">
+                            beautiful cat
+                        </p>
+                        <p class="channelname">
+                            Fluffies
+                        </p>
+                        <p class="views">
+                            2.6M views &#183; 12 years ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="div">
+                <div class="thumbing">
+                    <img  class="thumbnail"  src="./thumbnail/thumbnail.png">
+                    <div class="timing">
+                        15:11
+                    </div>
+                </div>
+                <div class="container">
+                    <div  >
+                        <img  class="chpic" src="./channels/1.jpg">
+                    </div>
+                    <div class="vidinfo">
+                        <p class="videodescription">
+                            How to grow your arms like a monster
+                        </p>
+                        <p class="channelname">
+                            A random guy
+                        </p>
+                        <p class="views">
+                            12M views &#183; 12 years ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
